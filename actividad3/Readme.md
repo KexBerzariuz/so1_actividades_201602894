@@ -28,7 +28,7 @@ server {
 }
 ```
 
-para en el caso que se quiera crear un contenedor se procede a copiar la configuracion creada a la localizacion donde tiene guardada su configuracion el nginx 
+para en el caso que se quiera crear un contenedor se procede a copiar la configuracion creada a la localizacion donde tiene guardada su configuracion el nginx en el dockerfile
 
 ```
 COPY nginx.conf /etc/nginx/conf.d/default.conf
