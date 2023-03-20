@@ -1,0 +1,6 @@
+[unit]
+Description = Saludo 
+After=systend-user-sessions.service
+[Service]
+Type = simple 
+ExecStart = /home/kexberzariuz/Sopes1/Clase/hola.sh
